@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+}
+
+#container {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+}
+
+.ball {
+  position: absolute;
+  border-radius: 50%;
+  will-change: transform; /* prepares browser and gpu for render heavy work */
+}
